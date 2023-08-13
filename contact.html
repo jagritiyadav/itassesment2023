@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/form.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a>
+        <ul class="sub-menu">
+          <li><a href="blog1.html">Blog 1</a></li>
+          <li><a href="blog2.html">Blog 2</a></li>
+          <li><a href="blog3.html">Blog 3</a></li>
+          <li><a href="blog4.html">Blog 4</a></li>
+        </ul>
+      </li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <!-- Footer information -->
+    <p>Follow us on <a href="https://github.com/jagritiyadav">GitHub</a></p>
+    <p>Site Name | Address Info | Email: <a href="jagriti86124@gmail.com"></a>">jagriti86124@gmail.com"></a> | Phone: +1 123-456-7890</p>
+  </footer>
+</body>
+</html>
